@@ -24,7 +24,7 @@
 #define MCP23XXX_GPIO 0x09   //!< Port register
 #define MCP23XXX_OLAT 0x0A   //!< Output latch register
 
-#define MCP23XXX_ADDR 0x20 //!< Default I2C Address
+#define MCP23XXX_ADDR 0x21 //!< Default I2C Address
 #define MCP23XXX_SPIREG                                                        \
   ADDRESSED_OPCODE_BIT0_LOW_TO_WRITE //!< SPI register type
 
